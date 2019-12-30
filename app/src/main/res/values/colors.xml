@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C02626</color>
+    <color name="colorPrimaryDark">#68140A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#F01717</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red_FirstScreen">#DB4437</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="button_red">#E00303</color>
+    <color name="light_black">#383737</color>
+
+    <color name="card_bg_color">#f6f6f6</color>
+    <color name="content_textcolor">#E6E6E6</color>
+
+</resources>

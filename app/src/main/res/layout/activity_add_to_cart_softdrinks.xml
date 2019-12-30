@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/atc_sd_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher_round" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atc_sd_image"
+        android:layout_marginTop="10dp"
+        android:background="@color/white_text">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/atc_sd_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="230sp"
+                android:layout_marginRight="45dp"
+                android:backgroundTint="@color/red_FirstScreen"
+                android:src="@drawable/ic_shopping_cart_black_24dp"
+                app:fabCustomSize="60dp"
+                app:maxImageSize="30dp" />
+
+            <TextView
+                android:id="@+id/RS_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs "
+                android:textColor="@color/light_black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/qty_sd_dec"
+                android:layout_below="@id/atc_sd_description"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/qty_sd_dec"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/atc_sd_description"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/red_FirstScreen"
+                android:onClick="countDec"
+                android:text="-"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/qty_sd_inc"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/atc_sd_description"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/red_FirstScreen"
+                android:onClick="countInc"
+                android:text="+"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/atc_sd_price" />
+
+            <TextView
+                android:id="@+id/qty_sd_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_price"
+                android:layout_toRightOf="@id/atc_sd_qty"
+                android:text="1"
+                android:paddingTop="5dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/atc_sd_itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="@color/light_black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/atc_sd_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_itemName"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:id="@+id/atc_sd_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_description"
+                android:layout_marginTop="10dp"
+                android:text="-"
+                android:textColor="@color/light_black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/RS_tv"/>
+
+            <TextView
+                android:id="@+id/atc_sd_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_price"
+                android:text="Qty: "
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/light_black"
+                android:typeface="serif"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/atc_sd_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_qty"
+                android:text="Size:"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_black"
+                android:typeface="serif"
+                android:layout_marginTop="10dp"/>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_sd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/atc_sd_size">
+
+                <RadioButton
+                    android:id="@+id/radiobutton_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular"
+                    android:textSize="20sp"
+                    android:textColor="@color/light_black"
+                    android:onClick="checkbutton"
+                    android:textStyle="italic"/>
+
+                <RadioButton
+                    android:id="@+id/radiobutton_1.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.5 Ltr"
+                    android:textSize="20sp"
+                    android:textColor="@color/light_black"
+                    android:onClick="checkbutton"
+                    android:textStyle="italic"/>
+
+                <RadioButton
+                    android:id="@+id/radiobutton_2.25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.25 Ltr"
+                    android:textSize="20sp"
+                    android:textColor="@color/light_black"
+                    android:onClick="checkbutton"
+                    android:textStyle="italic"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

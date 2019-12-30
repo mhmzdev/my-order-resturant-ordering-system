@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/headerMyCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="My Cart"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/rsheader"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/rsheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: Rs "
+        android:layout_toRightOf="@id/tv_qty_mycart_header"
+        android:textSize="20dp"
+        android:textColor="@color/light_black"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="45dp"/>
+
+    <Button
+        android:id="@+id/placeOrberBtn"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:shadowColor="@color/light_black"
+        android:shadowRadius="5"
+        android:text="Place Order!"
+        android:textColor="@color/white_text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/rv_item_mycart"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_item_mycart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tv_qty_mycart_header"
+        android:layout_marginTop="10dp"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/noOrderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_qty_mycart_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/red_FirstScreen"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/tv_qty_mycart_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerMyCart"
+        android:layout_centerHorizontal="true"
+        android:text="Qty"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/light_black"
+        android:typeface="serif"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_item_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item(s)"
+        android:textSize="20dp"
+        android:textColor="@color/light_black"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/headerMyCart"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_price_mycart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textStyle="bold"
+        android:textColor="@color/light_black"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:layout_below="@id/headerMyCart"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/sloganfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/slogan"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_below="@id/contactFinal"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/contactFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_centerHorizontal="true"
+        android:text="info@myorder.com"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_below="@id/placeOrberBtn"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</RelativeLayout>

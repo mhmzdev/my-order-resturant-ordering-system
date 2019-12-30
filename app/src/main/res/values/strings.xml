@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">NavigationBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="slogan">Serve, Order and Eat as you Like!</string>
+
+
+    <string-array name="fastfood_items">
+        <item>Zinger Burger</item>
+        <item>Chicken Burger</item>
+        <item>Crunch Burger</item>
+        <item>Wings Bucket</item>
+        <item>Shuwarma</item>
+        <item>Roll Parratha</item>
+    </string-array>
+    <string-array name="fastfood_price">
+        <item>180</item>
+        <item>120</item>
+        <item>130</item>
+        <item>760</item>
+        <item>100</item>
+        <item>110</item>
+    </string-array>
+    <string-array name="fastfood_description">
+        <item>Buy 2 Get 1 Free!</item>
+        <item>Buy 2 Get 1 Free!</item>
+        <item>Buy 2 Get 1 Free!</item>
+        <item>12 Wings 1 Bucket</item>
+        <item>Non-Spicy Available</item>
+        <item>Non-Spicy Available</item>
+
+    </string-array>
+
+    <string-array name="desifood_items">
+        <item>Chicken Karhai</item>
+        <item>Tikka Karhai</item>
+        <item>Daal Mash</item>
+        <item>Daal Channa</item>
+        <item>Fry Fish Desi</item>
+        <item>Sajji</item>
+    </string-array>
+    <string-array name="desifood_price">
+        <item>800</item>
+        <item>800</item>
+        <item>80</item>
+        <item>70</item>
+        <item>850</item>
+        <item>450</item>
+    </string-array>
+    <string-array name="desifood_description">
+        <item>Full and Half Available</item>
+        <item>Full and Half Available</item>
+        <item>Single and Half plate Available</item>
+        <item>Single and Half plate Available</item>
+        <item>Desi Fish 1 KG</item>
+        <item>Full Sajji</item>
+    </string-array>
+
+    <string-array name="italian_items">
+        <item>Carbonara</item>
+        <item>Italian Salad</item>
+        <item>Lasagna</item>
+        <item>Mushroom Risotto</item>
+        <item>Penne Pasta</item>
+    </string-array>
+    <string-array name="italian_price">
+        <item>150</item>
+        <item>100</item>
+        <item>250</item>
+        <item>200</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="italian_description">
+        <item>Full and Half Bowl Available</item>
+        <item>Full Plate</item>
+        <item>Buy 2 Get 1 Free</item>
+        <item>Full and Half Bowl Available</item>
+        <item>Full Plate with 30% on Buying 2</item>
+    </string-array>
+
+    <string-array name="chinesefood_items">
+        <item>Dumplings</item>
+        <item>Kung Pao Chicken</item>
+        <item>Mapo Tofu</item>
+        <item>Spring Rolls</item>
+        <item>Wonton Soup</item>
+    </string-array>
+    <string-array name="chinese_price">
+        <item>500</item>
+        <item>850</item>
+        <item>800</item>
+        <item>150</item>
+        <item>800</item>
+    </string-array>
+    <string-array name="chinese_description">
+        <item>Pieces: 12</item>
+        <item>Single Bowl</item>
+        <item>Free Drink Available!</item>
+        <item>Pieces: 6   Free 1 ltr Drink</item>
+        <item>Buy 2 Get 1 Bowl Free</item>
+    </string-array>
+
+    <string-array name="icecream_items">
+        <item>Chocolate</item>
+        <item>Mint Chocolate</item>
+        <item>Tutti Frutti</item>
+        <item>Vanilla</item>
+    </string-array>
+    <string-array name="icecream_price">
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="icecream_description">
+        <item>1,2,4 Scoop(s)</item>
+        <item>1,2,4 Scoop(s)</item>
+        <item>1,2,4 Scoop(s)</item>
+        <item>1,2,4 Scoop(s)</item>
+    </string-array>
+
+    <string-array name="hot_drink_items_array">
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Cappuccino</item>
+        <item>Green Tea</item>
+    </string-array>
+    <string-array name="hot_drink_decription_array">
+        <item>Regular Cup : Non-Sugar Available</item>
+        <item>Regular Cup : Non-Sugar Available</item>
+        <item>Regular Cup : Non-Sugar Available</item>
+        <item>Regular Cup : Non-Sugar Available</item>
+    </string-array>
+    <string-array name="hot_drink_price_array">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="soft_drink_items">
+        <item>Coke</item>
+        <item>Pepsi</item>
+        <item>Sprite</item>
+        <item>Fanta</item>
+        <item>Dew</item>
+    </string-array>
+
+    <string-array name="soft_drinks_description">
+        <item>Regular, 1.5 Lts, 2.25 Ltr</item>
+        <item>Regular, 1.5 Lts, 2.25 Ltr</item>
+        <item>Regular, 1.5 Lts, 2.25 Ltr</item>
+        <item>Regular, 1.5 Lts, 2.25 Ltr</item>
+        <item>Regular, 1.5 Lts, 2.25 Ltr</item>
+    </string-array>
+
+    <string-array name="soft_drinks_price">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="todayspecial_items">
+        <item>Zinger Offer</item>
+        <item>Family Freedom</item>
+        <item>Buy 2 Get 1 Free!</item>
+        <item>Chinese Special</item>
+    </string-array>
+    <string-array name="todayspecial_price">
+        <item>550</item>
+        <item>800</item>
+        <item>1190</item>
+        <item>999</item>
+
+    </string-array>
+    <string-array name="todayspecial_description">
+        <item>3 Zinger + 1.5 Ltr + 3 Fries (S)</item>
+        <item>1 Karhai(F) + 2.25 Ltr</item>
+        <item>Any Medium Pizza + 2.25 Ltr</item>
+        <item>5 Spring Rolls + 2 Drinks (R)</item>
+    </string-array>
+
+    <string-array name="deals_items">
+        <item>Fast Family</item>
+        <item>Desi Family</item>
+        <item>BFF!</item>
+        <item>Chinese Friends</item>
+        <item>Italian Taste</item>
+        <item>Band of Burgers</item>
+        <item>Chicken lovers</item>
+    </string-array>
+    <string-array name="deals_description">
+        <item>3 Pizza(M) + 1.5 Ltr + 3 Fries (S)</item>
+        <item>1 Karhai(F) + 1.5 Ltr + 20% Discount</item>
+        <item>2 Zinger + 2 Drinks(R) + 2 Fries(S) + 2 Drinks(R)</item>
+        <item>5 Spring Rolls + 2 Dumplings + 2 Drinks(R)</item>
+        <item>3 Lasagna + 3 Drinks(R) + 20% Discount</item>
+        <item>3 Zinger + 2 Chicken + 1.5 Ltr Drink</item>
+        <item>2 Sajji + Chicken Karhai(H) + 2.25 Ltr Drink</item>
+    </string-array>
+    <string-array name="deals_price">
+        <item>2300</item>
+        <item>1200</item>
+        <item>550</item>
+        <item>999</item>
+        <item>550</item>
+        <item>950</item>
+        <item>1250</item>
+    </string-array>
+
+    <string name="title_activity_order_placed">OrderPlaced</string>
+</resources>

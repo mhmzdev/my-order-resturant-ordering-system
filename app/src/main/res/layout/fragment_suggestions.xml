@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sugback">
+
+    <TextView
+        android:id="@+id/headerSuggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Suggestion(s)"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/light_black"/>
+
+    <EditText
+        android:id="@+id/editTextSugest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/headerSuggestions"
+        android:layout_marginTop="70dp"
+        android:paddingTop="9dp"
+        android:ems="18"
+        android:hint="Suggestions/Complaints"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/BtnSuggestionSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSugest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="@color/red_FirstScreen"
+        android:text="Send"
+        android:textColor="@color/white_text"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/contactus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnSuggestionSend"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="Contact us: info@myorder.com"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+
+</RelativeLayout>

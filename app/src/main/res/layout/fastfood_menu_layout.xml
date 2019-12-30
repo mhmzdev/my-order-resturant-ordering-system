@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/card_bg_color"
+    android:layout_marginTop="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/itemPicture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+
+
+    <TextView
+        android:id="@+id/ff_itemnameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/itemPicture"
+        android:paddingTop="20dp"
+        android:text="Name"
+        android:textColor="@color/red_FirstScreen"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ff_descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ff_itemnameTextView"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/itemPicture"
+        android:text="Description"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/ff_pricetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ff_descriptionTextView"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/itemPicture"
+        android:paddingRight="3dp"
+        android:text="Price"
+        android:textColor="@color/light_black"
+        android:textSize="18dp" />
+</RelativeLayout>

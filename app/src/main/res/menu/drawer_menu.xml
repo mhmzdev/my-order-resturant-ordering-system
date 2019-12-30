@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todayspecial"
+            android:icon="@drawable/ic_todayspecial"
+            android:title="Today's Special" />
+
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="Deals" />
+
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_suggestions"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Suggestions" />
+    </group>
+    <item android:title="Here's Your Cart!">
+        <menu>
+            <item
+                android:id="@+id/nav_mycart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="My Cart" />
+        </menu>
+    </item>
+
+    <item android:title="Review Your Experience">
+        <menu>
+            <item
+                android:id="@+id/nav_onestar"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="1 Star" />
+            <item
+                android:id="@+id/nav_twostar"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="2 Star" />
+            <item
+                android:id="@+id/nav_threestar"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="3 Star" />
+            <item
+                android:id="@+id/nav_fourstar"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="4 Star" />
+            <item
+                android:id="@+id/nav_fivestar"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="5 Star" />
+        </menu>
+    </item>
+
+</menu>
